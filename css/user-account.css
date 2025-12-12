@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.user-account-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.user-account-welcome {
+  text-align: center;
+  font-size: 2rem;
+  color: #e63946;
+  margin-bottom: 2rem;
+}
+
+.user-account-section {
+  border-top: 1px solid #ddd;
+  padding: 1.5rem 0;
+}
+
+.user-account-section h2 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.user-account-section p,
+.user-account-section ul {
+  margin: 0.5rem 0;
+}
+
+.user-account-section ul {
+  padding-left: 1.2rem;
+}
+
+.user-account-section button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.user-account-section button:hover {
+  background: #c92a3b;
+}
+
+.logout-btn {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 2rem;
+}

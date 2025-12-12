@@ -1,0 +1,137 @@
+body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f7f9fb;
+      margin: 0;
+      /* margin-top: 0; */
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .profile-header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #1abc9c;
+    }
+
+    .profile-header h2 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .profile-header p {
+      color: #666;
+      margin: 0;
+    }
+
+    .info-section {
+      margin-top: 30px;
+    }
+
+    .info-section h3 {
+      font-size: 22px;
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    .info-section .info-row {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .info-box {
+      flex: 1 1 45%;
+      margin-bottom: 20px;
+    }
+
+    .info-box label {
+      font-weight: bold;
+      color: #555;
+    }
+
+    .info-box p {
+      font-size: 16px;
+      margin-top: 5px;
+      color: #333;
+    }
+
+    .edit-btn {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 10px 20px;
+      background: #1abc9c;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .edit-btn:hover {
+      background: #159a80;
+    }
+/* /////////////////////////////////////////// */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-header img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-header h2 {
+    font-size: 22px;
+  }
+
+  .info-row {
+    flex-direction: column;
+  }
+
+  .info-box {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .edit-btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .profile-header h2 {
+    font-size: 20px;
+  }
+
+  .info-box label {
+    font-size: 14px;
+  }
+
+  .info-box p {
+    font-size: 15px;
+  }
+}
